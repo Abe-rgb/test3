@@ -1,0 +1,117 @@
+body{
+  background-image: url(../IMG/background-img.png);
+  background-size: contain;
+}
+
+#main-space {
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.text-item{
+	margin-top: 50px;
+	font-size: 40px; 
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+}
+
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrap:before {
+  animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes img-wrap {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+}
+
+.member-block {
+    margin: 0px 50px 0 50px;
+}
+
+.member-line {
+    display: flex;
+}
+
+.member-line li {
+    flex: auto;
+}
+
+.member-line div {
+	width: 	100%;
+    border: 2px solid #000;
+    background-color: #fff;
+    margin: 0px 15px 30px 15px;
+	box-shadow: 0 3px 6px 1px rgba(0, 0, 0, .5);
+}
+
+.member {
+  overflow: hidden;
+}
+
+.member img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition-duration: 0.8s;
+}
+
+
+
+.member:hover img {
+  transform: rotateY(360deg);
+  transition-duration: 2s;
+  opacity: 1;
+  filter: none;
+}
+
+.member:hover {
+  background-color: #effdfd;
+	border: 2px solid #ffa500;
+  padding: 15px;
+  transition: 1s;
+  transition: all 0.4s;
+  filter: none;
+}
+
+.member:hover .name {
+  color: #35015a;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 1s;
+}
+
+.member-li{
+	margin: 15px 60px 0 30px;
+}
+
+.name {
+  text-align: left;
+  padding: 5px 0 5px 15px;
+  font-family: cursive;
+}
+
+.position {
+  padding: 5px 15px 5px 0;
+  text-align: right;
+}

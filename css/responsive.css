@@ -1,0 +1,33 @@
+@media (max-width:1400px) {
+    body {
+        width: 1400px;
+    }
+}
+
+@media (max-width:1000px) {
+    #header-menu {
+        display: none;
+    }
+
+    #header-logo {
+        width: 60%;
+    }
+
+    #menu-space {
+        display: block;
+        width: 15%;
+    }
+
+    #menu-icon {
+        display: inline;
+        width: 23%;
+        text-align: right;
+        margin-right: 2%;
+    }
+}
+
+@media (max-width:670px) {
+    body {
+        width:670px;
+    }
+}
