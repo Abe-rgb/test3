@@ -1,0 +1,113 @@
+main {
+    /*background-color: beige;*/
+    background-image: url(../../img/background-img.png);
+    background-size: contain;
+}
+
+#motto {
+    width: fit-content;
+    margin: auto;
+    padding: 50px 0 70px 0;
+    font-size: 50px;
+    font-family: "游明朝","Yu Mincho";
+    font-weight: 1000;
+    text-shadow: 3px 4px 5px #808080 , 
+        -1px -1px 1px #510000;
+}
+
+.contents {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid #000;
+	box-shadow: 0 4px 7px 2px #00000080;
+}
+
+.contents .profileimg {
+    /*width: 100%;*/
+    height: 100%;
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.contents .messageimg {
+    /*width: 100%;*/
+    height: 100%;
+    text-align: right;
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.contents .freedomimg {
+    /*width: 100%;*/
+    height: 100%;
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+h1 {
+    font-family:"MS 明朝","MS Mincho";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contents p {
+    font-family:"MS 明朝","MS Mincho";
+    font-size: 20px;
+}
+
+.contents #border-line {
+    background-color: #534646;
+
+}
+
+.profile {
+    display: flex;
+}
+
+.profile li {
+    width: 50%;
+    background-color: #fff;
+}
+
+.profile h1 {
+    /*margin: 30px 30px 10px 30px;*/
+    margin: 15px 0px 0px 0px;
+}
+
+.profile p {
+    /*margin: 10px 20px 0 30px;*/
+    margin: 10px 0px 10px 10px;
+}
+
+.message {
+    display: flex;
+}
+
+.message li {
+    width: 50%;
+    background-color: #fff;
+}
+
+.message h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.message p {
+    margin: 10px 20px 30px 30px;
+}
+
+.freedom {
+    display: flex;
+}
+
+.freedom li {
+    width: 50%;
+    background-color: #fff;
+}
